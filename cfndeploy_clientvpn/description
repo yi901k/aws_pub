@@ -1,0 +1,9 @@
+This folder contains CloudFormation template samples to deploy AWS Client VPN endpoints with SSM parameters.
+Contents included in this folder are as follows:
+  - cfn_clientvpnedp : CloudFormation template to deploy Client VPN endpoint
+  - cfn_ssmparameter : CloudFormation template to store parameters in the SSM parameter store, which are to be referred from cfn_clientvpnedp
+
+このフォルダにはSSMパラメータを参照してAWS Client VPN endpointのデプロイを行うCloudFormationテンプレートサンプルが格納してあります。
+フォルダ内ファイルの内容は以下の通りです。
+  - cfn_clientvpnedp : Client VPN endpointをデプロイするCloudFormationテンプレート
+  - cfn_ssmparameter : cfn_clientvpnedpのテンプレートから参照されるSSMパラメータを格納するためのCloudFormationテンプレート
